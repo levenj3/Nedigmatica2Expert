@@ -1,3 +1,5 @@
+PATH="C:\Program Files\Java\jdk1.8.0_333\bin";%PATH%
+
 @ECHO OFF
 ::::
 :::: Minecraft-Forge Server install/launcher script
@@ -248,7 +250,7 @@ SET MC_SERVER_TMP_FLAG=
 REM Get forge shorthand version number
 SET MC_SERVER_FORGESHORT=%MC_SERVER_FORGEVER:~-4%
 
-TITLE %MC_SERVER_PACKNAME% ServerStart Script
+TITLE %MC_SERVER_PACKNAME%
 ECHO.
 ECHO *** Loading %MC_SERVER_PACKNAME% Server ***
 ECHO Running Forge %MC_SERVER_FORGESHORT% for Minecraft %MC_SERVER_MCVER%
